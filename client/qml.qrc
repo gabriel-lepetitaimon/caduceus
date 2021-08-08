@@ -1,0 +1,54 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ui/Main.qml</file>
+        <file>ui/global/login/LoginDesktop.qml</file>
+        <file>assets/fonts/Roboto/Roboto-Black.ttf</file>
+        <file>assets/fonts/Roboto/Roboto-BlackItalic.ttf</file>
+        <file>assets/fonts/Roboto/Roboto-Bold.ttf</file>
+        <file>assets/fonts/Roboto/Roboto-BoldCondensed.ttf</file>
+        <file>assets/fonts/Roboto/Roboto-BoldCondensedItalic.ttf</file>
+        <file>assets/fonts/Roboto/Roboto-BoldItalic.ttf</file>
+        <file>assets/fonts/Roboto/Roboto-Condensed.ttf</file>
+        <file>assets/fonts/Roboto/Roboto-CondensedItalic.ttf</file>
+        <file>assets/fonts/Roboto/Roboto-Italic.ttf</file>
+        <file>assets/fonts/Roboto/Roboto-Light.ttf</file>
+        <file>assets/fonts/Roboto/Roboto-LightItalic.ttf</file>
+        <file>assets/fonts/Roboto/Roboto-Medium.ttf</file>
+        <file>assets/fonts/Roboto/Roboto-MediumItalic.ttf</file>
+        <file>assets/fonts/Roboto/Roboto-Regular.ttf</file>
+        <file>assets/fonts/Roboto/Roboto-Thin.ttf</file>
+        <file>assets/fonts/Roboto/Roboto-ThinItalic.ttf</file>
+        <file>assets/fonts/RobotoMono/RobotoMono-Bold.ttf</file>
+        <file>assets/fonts/RobotoMono/RobotoMono-BoldItalic.ttf</file>
+        <file>assets/fonts/RobotoMono/RobotoMono-ExtraLight.ttf</file>
+        <file>assets/fonts/RobotoMono/RobotoMono-ExtraLightItalic.ttf</file>
+        <file>assets/fonts/RobotoMono/RobotoMono-Italic.ttf</file>
+        <file>assets/fonts/RobotoMono/RobotoMono-Light.ttf</file>
+        <file>assets/fonts/RobotoMono/RobotoMono-LightItalic.ttf</file>
+        <file>assets/fonts/RobotoMono/RobotoMono-Medium.ttf</file>
+        <file>assets/fonts/RobotoMono/RobotoMono-MediumItalic.ttf</file>
+        <file>assets/fonts/RobotoMono/RobotoMono-Regular.ttf</file>
+        <file>assets/fonts/RobotoMono/RobotoMono-SemiBold.ttf</file>
+        <file>assets/fonts/RobotoMono/RobotoMono-SemiBoldItalic.ttf</file>
+        <file>assets/fonts/RobotoMono/RobotoMono-Thin.ttf</file>
+        <file>assets/fonts/RobotoMono/RobotoMono-ThinItalic.ttf</file>
+        <file>ui/theme/colors.js</file>
+        <file>ui/theme/fonts.js</file>
+        <file>assets/icons/globe.png</file>
+        <file>assets/icons/database.svg</file>
+        <file>ui/GQML/GTextField.qml</file>
+        <file>assets/fonts/fontawesome/Font Awesome 5 Brands-Regular-400.otf</file>
+        <file>assets/fonts/fontawesome/Font Awesome 5 Free-Regular-400.otf</file>
+        <file>assets/fonts/fontawesome/Font Awesome 5 Free-Solid-900.otf</file>
+        <file>assets/fonts/Fonts.qml</file>
+        <file>assets/fonts/qmldir</file>
+        <file>ui/window.qml</file>
+        <file>ui/global/header/HeaderTab.qml</file>
+        <file>ui/global/header/Header.qml</file>
+        <file>ui/GQML/GIcon.qml</file>
+        <file>ui/global/MainArea.qml</file>
+        <file>ui/GQML/Icons.qml</file>
+        <file>ui/GQML/qmldir</file>
+        <file>ui/global/header/SettingsPanel.qml</file>
+    </qresource>
+</RCC>

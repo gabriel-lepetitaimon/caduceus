@@ -1,0 +1,15 @@
+.idea/
+.ipynb_checkpoints/
+lightning_logs/
+experiments_backup/
+mlruns/
+__pycache__/
+*/build/
+build/
+*/__pycache__/
+*.h5
+DATA/
+tmp/
+.directory
+*.pro.user
+*~
