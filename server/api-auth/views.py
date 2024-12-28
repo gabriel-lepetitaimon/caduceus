@@ -7,6 +7,7 @@ from rest_framework.authtoken.models import Token
 from rest_framework.decorators import api_view
 from rest_framework.reverse import reverse
 from django.utils import timezone
+from drf_yasg.utils import swagger_auto_schema
 
 
 @api_view(['GET'])
@@ -15,11 +16,15 @@ def api_root(request, format=None):
         'users': reverse('user-list', request=request, format=format)
     })
 
+
+@swagger_auto_schema(method='get',
+                     operation_summary="Request server infos.")
 @api_view(['GET'])
 def api_hello(request, format=None):
     return Response({
         'version': '1.0.0',
     })
+
 
 class UserList(generics.ListAPIView):
     queryset = User.objects.all()
@@ -32,6 +37,7 @@ class UserDetail(generics.RetrieveAPIView):
 
 
 class ObtainExpiringAuthToken(ObtainAuthToken):
+    @swagger_auto_schema(operation_summary="Login")
     def post(self, request, *args, **kwargs):
         serializer = self.serializer_class(data=request.data, context={'request': request})
         if serializer.is_valid():
